@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.naslovna {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)), url(../img/jelo9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+}
+ul {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    padding-top: 20px;
+   
+}
+li {
+    padding-top: 10px;
+}
+
+
+@media (max-width: 767px) {
+    ul {
+        float: left;
+        width: 100%;
+    }
+    li {
+        display: inline-block;
+        padding-left: 12%;
+    }
+}
+
+@media (max-width: 576px) {
+    ul {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+    }
+    li {
+        display: inline-block;
+        padding-left: 10%;
+    }
+    
+}
+.naslovna h2 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.naslovna p {
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.naslovna a{
+    text-transform: uppercase;
+    color: rgb(255, 129, 83);
+    text-decoration: none;
+    font-size: 120%;
+}
+.naslovna a:hover{
+    color: white;
+    text-decoration: none;
+}
+img {
+    margin-left: 5%;
+    width: 90%;
+}
+.blog {
+    background-color: rgb(231, 231, 231);
+    
+}
+.blog h2 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 4px;
+    margin-top: 25px;
+}
+.blog h3 {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.blog p {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5px;
+    line-height: 1.25;
+}
+.blog a {
+    text-decoration: none;
+    color: rgb(255, 99, 43);
+}
+.blog a:hover {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)), url(../img/jelo9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75px;
+}
+.zadnji {
+    background-color: rgb(231, 231, 231);
+    height: 50px;
+}
+
+footer h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+footer h1:hover {
+   color: rgb(255, 99, 43);
+}
+footer a:hover {
+    text-decoration: none;
+}
+iframe {
+    margin: 50px 10px;
+}
+

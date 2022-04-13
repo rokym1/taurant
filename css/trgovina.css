@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+header, footer    {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.72),
+    rgba(0, 0, 0, 0.72)), url(../img/racici.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+}
+.banner {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+    color: orangered;
+    justify-content:center;
+    padding: 30px 0;
+    font-size: 88%;
+}
+.banner h2 {
+    padding: 0 5px;
+}
+article {
+    background-color: rgb(242, 242, 242);
+}
+.ponuda {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 900px;
+    padding: 20px 0;
+}
+.artikli {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 30%;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.artikli img {
+    width: 90%;
+    margin-left: 5%;
+}
+.artikli h2, p {
+    padding: 5px;
+}
+.artikli h2 {
+    font-size: 125%;
+}
+.artikli p {
+    font-size: 90%;
+}
+.akcija {
+    background-color: rgb(253, 214, 214);
+}
+.akcija:hover {
+    background-color: rgb(253, 157, 157);
+    transition: background-color 1s;
+}
+
+button {
+    margin: 10px 35px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: 75%;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 25px;
+    box-shadow: 2px 2px 0 gray;
+}
+button:hover i {
+    color: orangered;
+    transition: color 1s;
+}
+button:hover {
+    background-color: rgb(113, 113, 113);
+    color: white;
+    transition: 1s;
+}
+i {
+    padding-left: 10px;
+    font-size: 150%;
+} 
+@media (max-width: 767px) {
+    .banner {
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+    .banner h2 {
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+    }
+    button {
+        font-size: 60%;
+    }
+}
+@media (max-width: 598px) {
+    i {
+        padding: 10px;
+        font-size: 200%;
+    }
+}

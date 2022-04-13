@@ -1,0 +1,457 @@
+html,
+body {
+    margin: 0 auto;
+    background: #fff;
+    color: #505050;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+h1,h2,h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight:100;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+p {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+header {
+    background-color: #444444;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    height: 40px;
+    /*z-index: 1;*/
+}
+header h1 {
+    font-size: 130%;
+    float: left;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+header a{
+    float: right;
+    color: rgb(193, 193, 193);
+    text-decoration: none;
+    padding-top: 7px;
+    padding-right: 50px;
+}
+header a:hover{
+    color: white;
+}
+span {
+    color: orangered;
+}
+.section-naslovna {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)), url(../img/taurant.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    background-attachment: fixed;
+}
+.logo {
+    float: left;
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 0px;
+    background-color: #444444;
+}
+.logo p{
+    margin-top: -20px;
+    font-size: 225%;
+    font-weight: 900;
+    font-style: italic;
+    color: orangered;
+
+}
+
+.naslovni-text {
+    position: absolute;
+    
+    top: 40%;
+    left: 10%;
+}
+.section-druga {
+    width: 100%;
+}
+.section-druga p {
+    width: 65%;
+    margin-left: 20%;
+}
+
+.section-treca div {
+    float: left;
+    width: 24%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+.section-treca p {
+    line-height: 145%;
+    width: 80%;
+    text-align: left;
+}
+.section-cetiri figure{
+    width: 100%;
+    margin: 0;
+}
+.section-cetiri li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.section-cetiri img{
+    width: 100%;
+    height: auto;
+}
+.section-cetiri ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.section-pet p{
+   text-align: center;
+}
+
+.ponuda {
+    float: left;
+    background-color: white;
+    width: 18%;
+    height: auto;
+    margin: 25px 3% 50px 3.3%;
+  
+}
+.veliki-div {
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: rgb(242, 242, 242);
+}
+.section-sest h3{
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+.cijena {
+    font-size: 160%;
+    margin-bottom: 10px;
+    color: orangered;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.cijena span{
+    font-size: 50%;
+    font-weight: bolder;
+}
+.ponuda li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.veliki-div-bijeli {
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.gradovi {
+    float: left;
+    background-color: white;
+    width: 25%;
+    height: 400px;
+    margin: 25px 3% 50px 4.7%;
+    /*border: 1px solid orangered;*/
+}
+.gradovi img{
+    width: 80%;
+    height: auto;
+    margin: 10% 10% 0 10%;
+}
+.gradovi h3{
+    text-align: left;
+    padding-left: 10%;
+}
+.gradovi a:link{
+    color: orangered;
+    margin: 5px 25% 5px 10%;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-style: oblique;
+}
+.gradovi a:hover{
+    color: #505050;
+}
+.gradovi p{
+   margin-left: 10%;
+   font-style: oblique;
+}
+table tr{
+    height: 75px;
+    background-color: #e4e4e4;
+}
+table td{
+    width: 14%;
+}
+.tablica-slika-velika {
+    background-image: url(../img/taurant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+table h3{
+    text-align: center;
+    color: white;
+}
+table a:link{
+    color: white;
+    text-decoration: none;
+}
+table a:hover h3{
+    color: #505050;
+}
+footer div{
+    float: left;
+    background-color: #444444;
+    top: 0;
+    width: 100%;
+    height: 40px;
+}
+footer h1{
+    font-size: 130%;
+    float: left;
+    padding-left: 36%;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+footer img{
+    margin-right: 20px;
+    float: right;
+    width: 40px
+}
+nav ul {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+@media (max-width: 775px) {
+    nav li {
+        display: block;
+    }
+    nav ul {
+        margin-right: 20px;
+        text-align: right;
+    }
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(193, 193, 193);
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+}
+.kontakt-div {
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: rgb(226, 226, 226);
+}
+form {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+pre {
+    display: inline;
+}
+input[type=submit] {
+    background-color: rgb(255, 118, 68);
+    color: white;
+}
+input[type=reset] {
+    background-color: #444444;
+    color: white;
+}
+.kontakt-div a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 37%;
+    color: #444444;
+}
+.kontakt-div a:hover{
+    color: black;
+    font-weight: 600;
+}
+iframe {
+    float: left;
+    margin-left: 25%;
+    margin-bottom: 100px;
+}
+
+/*      O NAMA       */
+
+.onamabody {
+    background-color: rgb(245, 245, 245);
+}
+
+.onama1 {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)), url(../img/jelo4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 650px;
+}
+.onamanav {
+    position: fixed;
+    right: 50px;
+    z-index: 1;
+}
+.onama1 h3 {
+    position: absolute;
+    left: 50px;
+    color: rgb(193, 193, 193);
+}
+.onama1 p {
+    position: absolute;
+    font-size: 150%;
+    font-weight: 900;
+    font-style: italic;
+    color: orangered;
+    margin: 0;
+    padding: 0;
+    padding-top: 9px;
+    left: 210px;
+}
+.onamanav li {
+    display: block;
+}
+.onamanav a {
+    color: rgb(255, 129, 83);
+}
+.onamanav a:hover {
+    color: rgb(255, 60, 0);
+}
+.vel {
+    position: relative;
+    width: 100%;
+    height: 1350px;
+}
+.onama2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: white;
+}
+.onama2 img{
+    width: 100%;
+}
+.onama3 {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 73%;
+    height: auto;
+    background-color: white;
+}
+.onama4 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)), url(../img/jelo4.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.onamatekst {
+    position: absolute;
+    width: 80%;
+    top: 0;
+    left: 0;
+    height: auto;
+    
+}
+.onamatekst h1 {
+    color: rgb(47, 47, 47);
+    text-align: center;
+    font-size: 150%;
+    padding-top: 20px;
+}
+.onamatekst p {
+    color: rgb(84, 84, 84);
+    margin: 0;
+    margin-left: 5%;
+    width: 90%;
+}
+.onamatekst h2 {
+    text-align: left;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 5%;
+    font-size: 80%;
+    color: rgb(47, 47, 47);
+    font-weight: bold;
+}
+.onama4 p {
+    color: white;
+    padding-top: 10px;
+}
+i {
+    font-size: 200%;
+}
+i:hover {
+    color: rgb(255, 129, 83);
+    transition: color linear 0.75s;
+}
+iframe {
+    margin: 0;
+   
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.onamatekst iframe {
+    margin-top: 50px;
+}
